@@ -51,6 +51,7 @@ p {
   width: 250mm;
   min-height: 310mm;
   margin: 10mm auto;
+  padding: 10mm 0mm 10mm 0mm;
   background-color: white;
   box-shadow: 0 0 20px rgba(1, 1, 1, 1);
 }
@@ -64,7 +65,7 @@ p {
 
 .page-header {
   min-height: 40mm;
-  margin-bottom: 5mm;
+  /* margin-bottom: 5mm; */
 }
 .page-header img {
   border-radius: 50%;
@@ -82,6 +83,7 @@ p {
 }
 .page-body {
   min-height: 250mm;
+  padding-top: 5mm;
   /* border: 1px dashed #000000; */
 }
 .page-heading {
@@ -141,7 +143,7 @@ p {
   max-width: 85mm;
 }
 .page-section .section {
-  padding: 5mm 10mm 0mm 10mm;
+  padding: 0mm 10mm 0mm 10mm;
 }
 
 .page-section .sub-section {

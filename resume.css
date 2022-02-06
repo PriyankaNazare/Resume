@@ -137,7 +137,7 @@ p {
 }
 .page-section .right {
   margin-top: 20px;
-  border: 1px dashed #000000;
+  /* border: 1px dashed #000000; */
   flex-grow: 1;
   min-width: 85mm;
   max-width: 85mm;
